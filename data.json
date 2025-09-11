@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Seminar 1",
+    "ects": 5,
+    "dozent": "Dr. A",
+    "erwerbbare_kompetenzen": ["Kompetenz 1"],
+    "note": 1.3,
+    "semester_index": 0 
+  },
+  {
+    "name": "Seminar 2",
+    "ects": 5,
+    "dozent": "Dr. B",
+    "erwerbbare_kompetenzen": ["Kompetenz 2"],
+    "note": 2.0,
+    "semester_index": 0
+  },
+  {
+    "name": "Seminar 3",
+    "ects": 5,
+    "dozent": "Dr. C",
+    "erwerbbare_kompetenzen": ["Kompetenz 5"],
+    "note": 1.7,
+    "semester_index": 0
+  },
+  {
+    "name": "Seminar 4",
+    "ects": 5,
+    "dozent": "Dr. D",
+    "erwerbbare_kompetenzen": ["Kompetenz 3"],
+    "note": null,
+    "semester_index": 0
+  },
+  {
+    "name": "Seminar 5",
+    "ects": 5,
+    "dozent": "Dr. E",
+    "erwerbbare_kompetenzen": ["Kompetenz 4"],
+    "note": null,
+    "semester_index": 0
+  },
+  {
+    "name": "Seminar 6",
+    "ects": 5,
+    "dozent": "Dr. F",
+    "erwerbbare_kompetenzen": ["Kompetenz 6"],
+    "note": null,
+    "semester_index": 0
+  }
+]
