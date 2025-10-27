@@ -31,7 +31,7 @@ if not st.session_state["eingeloggt"]:
             # Erfolgreicher Login
             st.session_state["eingeloggt"] = True
             st.session_state["nutzer"] = benutzer[nutzername]
-            st.experimental_rerun()  # Seite neu laden
+            st.rerun()  # Seite neu laden
         else:
             # Login fehlgeschlagen
             st.error("Login fehlgeschlagen.")
@@ -41,8 +41,7 @@ if not st.session_state["eingeloggt"]:
 if st.sidebar.button("Ausloggen"):
     # Logout
     st.session_state.clear()
-    st.experimental_rerun()  # sofort zurück zum Login
-    st.stop()
+    st.rerun()  # sofort zurück zum Login
 
 
 st.sidebar.markdown(f"Eingeloggt als: {st.session_state['nutzer']['name']}")
